@@ -251,3 +251,138 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 
 }
+.header-link {
+    text-decoration: none;
+}
+.header-span {
+    color: #000000;
+}
+.header-caPTION {
+    text-decoration: none;
+}
+.header-tel {
+    text-decoration: none;
+}
+.main-button {
+    background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+/* identical to box height, or 188% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.footer-span {
+    color: #FFFFFF;
+}
+.footer {
+    background: #2F303A;
+}
+.text-box-footer-adres {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.text-box-footer-mail {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.text-box-footer-tel {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+}
+.main2-button2 {
+    background: #2196F3;
+/* shadow-middle */
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px
+}
+.main2-button {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+}
+.header-link2 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #212121;
+}
+.header-link22 {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+
+}
+.header-logo2 {
+    text-decoration: none;
+}
+.footer2 {
+    background: #2F303A;
+}
+.footer2-adres {
+    text-decoration: none;
+}
+
+.footer2-mail {
+    text-decoration: none;
+}
+.footer2-tel {
+    text-decoration: none;
+}
+.header-mail {
+    text-decoration: none;
+}
