@@ -3,6 +3,44 @@
     margin: 0 auto;
     padding: 15px;
     outline: solid red;
-    padding-top: 50px;
-    padding-bottom: 50px;
+}
+
+.header {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.solution {
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.Advantages {
+    padding-top: 180px;
+    padding-bottom: 30px;
+}
+
+.img {
+padding-top: 106px;
+padding-bottom: 94px;
+}
+.team {
+    padding-top: 105px;
+padding-bottom: 94px;
+}
+.footer {
+    padding-top: 60px;
+padding-bottom: 60px;
+}
+.header-portfolio {
+        padding-top: 32px;
+padding-bottom: 32px;
+    }
+.Appendices {
+    padding-top: 95px;
+padding-bottom: 95px    ;
+}    
+.footer-portfolio {
+    padding-top: 60px;
+padding-bottom: 60px;
 }
