@@ -411,12 +411,13 @@ display: flex;
 }
 .Advantages-list {
     display: flex;
-    
+    gap: 30px;
 }  
 
-.team-container {
+.team-list {
     display: flex;
     gap: 30px   ;
+    
 }
 .header-list2 {
     display: flex;
@@ -426,13 +427,16 @@ justify-content: flex-end;
 .div-container-footer {
     display: flex;
     flex-direction:column ;
-
+gap: 20px;
 }
 .team-list {
     display: flex;
     gap: 30px;
 
 }
-.team-Igor {
-    margin-bottom: 10px;
+
+.img-container {
+   display: flex;
+    gap: 30px;
 }
+    
