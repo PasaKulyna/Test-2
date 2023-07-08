@@ -5,10 +5,7 @@
     outline: solid red;
 }
 
-.header {
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
 
 .solution {
     padding-top: 210px;
@@ -17,7 +14,7 @@
 
 .Advantages {
     padding-top: 94px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 
 .img {
@@ -35,11 +32,7 @@ padding-bottom: 60px;
 .header-portfolio {
         padding-top: 32px;
 padding-bottom: 32px;
-    }
-.Appendices {
-    padding-top: 95px;
-padding-bottom: 95px    ;
-}    
+    }   
 .footer-portfolio {
     padding-top: 60px;
 padding-bottom: 60px;
