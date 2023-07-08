@@ -59,9 +59,11 @@
     letter-spacing: 0.02em;
     color: #757575;
 }
+
 .header-mail:hover {
     color: #2196F3;
 }
+
 .header-tel {
     font-weight: 500;
     font-size: 14px;
@@ -206,9 +208,11 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-mail:hover {
-    color: #2196F3  ;
+    color: #2196F3;
 }
+
 .footer-tel {
     font-weight: 400;
     font-size: 14px;
@@ -220,7 +224,7 @@
 .img-title {
     font-weight: 700;
     font-size: 36px;
-    line-height:  1.16;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
@@ -254,6 +258,7 @@
     list-style: none;
 }
 
+
 .Appendices-button {
     font-weight: 500;
     font-size: 16px;
@@ -261,11 +266,12 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    ;
 }
 
 .Appendices-button:hover {
     background: #2196F3;
-color: #FFFFFF;
+    color: #FFFFFF;
 }
 
 .Technocrack-title {
@@ -279,156 +285,189 @@ color: #FFFFFF;
 .Technocrack-text-box {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1, 87;
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 .Technocrak-list {
     list-style: none;
 }
+
 .header-logo-portfolio {
     font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
+
 .header-span-portfolio {
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
+
 .header-link-portfolio {
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
+
 .header-link-portfolio:hover {
     color: #2196F3;
 }
+
 .header-list-portfolio {
     list-style: none;
 }
+
 .header-logo-portfolio {
     text-decoration: none;
 }
+
 .header-link-portfolio {
     text-decoration: none;
 }
+
 .header-mail-portfolio {
     font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 
-color: #757575;
+    color: #757575;
 }
+
 .header-mail-portfolio:hover {
     color: #2196F3;
-} 
+}
+
 .header-mail-portfolio {
     text-decoration: none;
 }
+
 .header-tel-portfolio {
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
-color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
+
 .header-tel-portfolio {
     text-decoration: none;
 }
+
 .footer-portfolio {
     background: #2F303A;
 }
+
 .footer-adres-portfolio {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
+
 .footer-mail-portfolio {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-tel-portfolio {
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-title-portfolio {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
 }
+
 .footer-span-portfolio {
-font-family: 'Raleway';
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
+
 .footer-mail-portfolio {
     text-decoration: none;
 }
+
 .footer-tel-portfolio {
     text-decoration: none;
 }
+
 .footer-adres-portfolio {
     text-decoration: none;
 }
+
 .Appendices-button {
     background: #F5F4FA;
-border-radius: 4px;}
+    border-radius: 4px;
+}
 
 .header-nav {
-display: flex;
+    display: flex;
 
 }
+
 .header-list {
     display: flex;
     gap: 32px;
-}
-.solution-container {
-    display: flex;
+    align-items: center;
 
 }
-.Advantages-list {
-    display: flex;
-    gap: 30px;
-}  
 
-.team-list {
-    display: flex;
-    gap: 30px   ;
-    
-}
 .header-list2 {
     display: flex;
     gap: 32px;
-justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
 }
+
+.Advantages-list {
+    display: flex;
+    gap: 30px;
+}
+
+.team-list {
+    display: flex;
+    gap: 30px;
+
+}
+
+.header-list2 {
+    display: flex;
+    gap: 32px;
+    justify-content: flex-end;
+}
+
 .div-container-footer {
     display: flex;
-    flex-direction:column ;
-gap: 20px;
+    flex-direction: column;
+    gap: 20px;
 }
+
 .team-list {
     display: flex;
     gap: 30px;
@@ -436,7 +475,32 @@ gap: 20px;
 }
 
 .img-container {
-   display: flex;
+    display: flex;
     gap: 30px;
 }
-    
+
+.solution-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-logo {
+    margin-right: 93px;
+}
+
+.Appendices-list {
+    display: flex;
+    gap: 30px;
+justify-content: center;
+}
+
+.Technocrak-list {
+    display: flex;
+    gap: 55px;
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
