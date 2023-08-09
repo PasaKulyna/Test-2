@@ -1,8 +1,10 @@
 .container {
     width: 1200px;
     margin: 0 auto;
-    padding: 15px;
+   
     outline: solid red;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 
@@ -14,7 +16,7 @@
 
 .Advantages {
     padding-top: 94px;
-    padding-bottom: 50px;
+    
 }
 
 .img {
@@ -22,7 +24,7 @@ padding-top: 106px;
 padding-bottom: 94px;
 }
 .team {
-    padding-top: 105px;
+    padding-top: 94px;
 padding-bottom: 94px;
 }
 .footer {
