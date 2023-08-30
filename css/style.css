@@ -11,6 +11,8 @@
     color: #2196F3;
 padding-bottom: 25px;
 padding-top: 24px   ;
+text-decoration: none;
+margin-right: 93px;
 }
 
 .header-span {
@@ -20,18 +22,6 @@ padding-top: 24px   ;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #000000;
-}
-
-.header-logo {
-    text-decoration: none;
-}
-
-.header-mail {
-    text-decoration: none;
-}
-
-.header-tel {
-    text-decoration: none;
 }
 
 .header-link {
@@ -52,6 +42,9 @@ padding-top: 24px   ;
 
 .header-list {
     list-style: none;
+    display: flex;
+    gap: 32px;      
+    align-items: center;
 }
 
 .header-mail {
@@ -60,6 +53,7 @@ padding-top: 24px   ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .header-mail:hover {
@@ -72,6 +66,7 @@ padding-top: 24px   ;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
+    text-decoration: none;
 }
 
 .solution {
@@ -86,6 +81,8 @@ padding-top: 24px   ;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+
+    width: 696px;
 }
 
 .solution-button {
@@ -104,6 +101,10 @@ padding-top: 24px   ;
     padding-bottom: 10px;
     padding-left: 32px;
     padding-right: 32px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
 }
 
 .Advantages-details {
@@ -132,6 +133,7 @@ padding-top: 24px   ;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .team-Igor {
@@ -141,6 +143,7 @@ padding-top: 24px   ;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-top:30px ;
 }
 
 .team-text-box {
@@ -151,6 +154,7 @@ padding-top: 24px   ;
     letter-spacing: 0.03em;
     color: #757575;
 padding-bottom: 30px;
+margin-top: 10px;
 }
 
 .team-Olga {
@@ -208,6 +212,8 @@ padding-bottom: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 .footer-mail {
@@ -216,6 +222,9 @@ padding-bottom: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-mail:hover {
@@ -228,6 +237,7 @@ padding-bottom: 30px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .img-title {
@@ -237,36 +247,34 @@ padding-bottom: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    margin-bottom: 50px;
 }
 
 .Advantages-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
 }
 
 .team-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
 }
-
-.footer-adres {
-    text-decoration: none;
-}
-
-.footer-mail {
-    text-decoration: none;
-}
-
-.footer-tel {
-    text-decoration: none;
-}
-
 .footer-list {
     list-style: none;
 }
 
 .Appendices-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
+justify-content: center;
 }
-
+.Appendices {
+    margin-top: 94px;
+margin-bottom: 50px;
+}
 
 .Appendices-button {
     font-weight: 500;
@@ -275,7 +283,12 @@ padding-bottom: 30px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    /* w */
+    background: #F5F4FA;
+    border-radius: 4px;
+padding-top: 6px;
+padding-bottom: 6px;
+padding-left: 25px;
+padding-right: 25px;
 }
 
 .Appendices-button:hover {
@@ -297,10 +310,15 @@ padding-bottom: 30px;
     line-height: 1, 87;
     letter-spacing: 0.03em;
     color: #757575;
+    padding-top: 4px;
 }
 
 .Technocrak-list {
     list-style: none;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .header-logo-portfolio {
@@ -309,6 +327,7 @@ padding-bottom: 30px;
     line-height: 31px;
     letter-spacing: 0.03em;
     color: #2196F3;
+    text-decoration: none;
 }
 
 .header-span-portfolio {
@@ -325,6 +344,7 @@ padding-bottom: 30px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #212121;
+    text-decoration: none;
 }
 
 .header-link-portfolio:hover {
@@ -334,41 +354,24 @@ padding-bottom: 30px;
 .header-list-portfolio {
     list-style: none;
 }
-
-.header-logo-portfolio {
-    text-decoration: none;
-}
-
-.header-link-portfolio {
-    text-decoration: none;
-}
-
 .header-mail-portfolio {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-
+    text-decoration: none;
     color: #757575;
 }
 
 .header-mail-portfolio:hover {
     color: #2196F3;
 }
-
-.header-mail-portfolio {
-    text-decoration: none;
-}
-
 .header-tel-portfolio {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
     color: #757575;
-}
-
-.header-tel-portfolio {
     text-decoration: none;
 }
 
@@ -382,6 +385,8 @@ padding-bottom: 30px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 .footer-mail-portfolio {
@@ -390,6 +395,9 @@ padding-bottom: 30px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 .footer-tel-portfolio {
@@ -398,6 +406,7 @@ padding-bottom: 30px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
 
 .footer-title-portfolio {
@@ -417,104 +426,26 @@ padding-bottom: 30px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-
-.footer-mail-portfolio {
-    text-decoration: none;
-}
-
-.footer-tel-portfolio {
-    text-decoration: none;
-}
-
-.footer-adres-portfolio {
-    text-decoration: none;
-
-}
-
-.Appendices-button {
-    background: #F5F4FA;
-    border-radius: 4px;
-padding-top: 6px;
-padding-bottom: 6px;
-padding-left: 25px;
-padding-right: 25px;
-margin-top: 94px;
-margin-bottom: 50px;
-
-}
-
 .header-nav {
     display: flex;
 
 }
-
-.header-list {
-    display: flex;
-    gap: 32px;      
-    align-items: center;
-
-}
-
 .header-list2 {
     display: flex;
     gap: 32px;
     align-items: center;
     margin-left: auto;
-}
-
-.Advantages-list {
-    display: flex;
-    gap: 30px;
-}
-
-.team-list {
-    display: flex;
-    gap: 30px;
-
-}
-
-.header-list2 {
-    display: flex;
-    gap: 32px;
     justify-content: flex-end;
 }
-
 .div-container-footer {
     display: flex;
     flex-direction: column;
     
 }
-
-.team-list {
-    display: flex;
-    gap: 30px;
-
-}
 .img-list {
     display: flex;
 gap: 30px;
 
-}
-.solution-button {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.header-logo {
-    margin-right: 93px;
-}
-
-.Appendices-list {
-    display: flex;
-    gap: 30px;
-justify-content: center;
-}
-
-.Technocrak-list {
-    display: flex;
-    gap: 30px;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 .footer-container {
     display: flex;
@@ -522,41 +453,7 @@ justify-content: center;
     
 
 }
-.team-text-box {
-    margin-top: 10px;
-}
-.team-Igor {
-    margin-top:30px ;
-}
-.solution-button {
-    display: block;
-    margin-top: 30px;
-}
-.img-title {
-    margin-bottom: 50px;
-}
-.team-title {
-    margin-bottom: 50px;
-}
-
-
-.footer-adres {
-    margin-top: 20px;
-
-}
-.footer-mail {
-    margin-top: 9px;
-margin-bottom: 9px;
-}
-
 .Technocrak-div {
     padding-left: 24px;
     padding-bottom: 20px;
-}
-.footer-adres-portfolio {
-    margin-top: 20px;
-}
-.footer-mail-portfolio {
-    margin-top: 9px;
-    margin-bottom: 9px;
 }
