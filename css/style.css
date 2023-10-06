@@ -273,8 +273,8 @@ margin-top: 10px;
 justify-content: center;
 }
 .Appendices {
-    margin-top: 94px;
-margin-bottom: 50px;
+    padding-top: 94px;
+padding-bottom: 50px;
 }
 
 .Appendices-button {
@@ -304,7 +304,9 @@ padding-right: 25px;
     letter-spacing: 0.06em;
     color: #212121;
 }
-
+.Technocrak {
+    padding-bottom: 94px;
+}
 .Technocrack-text-box {
     font-weight: 400;
     font-size: 16px;
