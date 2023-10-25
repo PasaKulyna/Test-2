@@ -9,10 +9,10 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
-padding-bottom: 25px;
-padding-top: 24px   ;
-text-decoration: none;
-margin-right: 93px;
+    padding-bottom: 25px;
+    padding-top: 24px;
+    text-decoration: none;
+    margin-right: 93px;
 }
 
 .header-span {
@@ -43,7 +43,7 @@ margin-right: 93px;
 .header-list {
     list-style: none;
     display: flex;
-    gap: 32px;      
+    gap: 32px;
     align-items: center;
 }
 
@@ -70,9 +70,8 @@ margin-right: 93px;
 }
 
 .solution {
-    background: #2F303A;
+    background-image: url(../img/hero-backround.jpg);
 }
-
 .solution-title {
     font-weight: 900;
     font-size: 44px;
@@ -81,8 +80,8 @@ margin-right: 93px;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
-margin-left: auto;
-margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
     width: 696px;
 }
 
@@ -144,7 +143,7 @@ margin-right: auto;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top:30px ;
+    margin-top: 30px;
 }
 
 .team-text-box {
@@ -154,8 +153,8 @@ margin-right: auto;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
-padding-bottom: 30px;
-margin-top: 10px;
+    padding-bottom: 30px;
+    margin-top: 10px;
 }
 
 .team-Olga {
@@ -257,14 +256,70 @@ margin-top: 10px;
     gap: 30px;
 }
 
+.Advantages-item::before {
+    content: '';
+    background-image: url(../img/antenna.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.Advantages-item:nth-child(2)::before {
+    content: '';
+    background-image: url(../img/clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.Advantages-item:nth-child(3)::before {
+    content: '';
+    background-image: url(../img/diagram.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.Advantages-item:nth-child(4)::before {
+    content: '';
+    background-image: url(../img/astronaut.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 270px;
+    height: 120px;
+    display: block;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+.Advantages-details {
+    padding-top: 30px;
+}
+.team {
+    background: #F5F4FA;
+
+}
 .team-list {
     list-style: none;
     display: flex;
     gap: 30px;
 }
+
 .team-item {
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
+
 .footer-list {
     list-style: none;
 }
@@ -273,11 +328,12 @@ margin-top: 10px;
     list-style: none;
     display: flex;
     gap: 30px;
-justify-content: center;
+    justify-content: center;
 }
+
 .Appendices {
     padding-top: 94px;
-padding-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .Appendices-button {
@@ -289,10 +345,10 @@ padding-bottom: 50px;
     color: #212121;
     background: #F5F4FA;
     border-radius: 4px;
-padding-top: 6px;
-padding-bottom: 6px;
-padding-left: 25px;
-padding-right: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .Appendices-button:hover {
@@ -300,10 +356,12 @@ padding-right: 25px;
     color: #FFFFFF;
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+
 .Technocrak-item:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 
 }
+
 .Technocrack-title {
     font-weight: 700;
     font-size: 18px;
@@ -311,9 +369,11 @@ padding-right: 25px;
     letter-spacing: 0.06em;
     color: #212121;
 }
+
 .Technocrak {
     padding-bottom: 94px;
 }
+
 .Technocrack-text-box {
     font-weight: 400;
     font-size: 16px;
@@ -364,6 +424,7 @@ padding-right: 25px;
 .header-list-portfolio {
     list-style: none;
 }
+
 .header-mail-portfolio {
     font-weight: 500;
     font-size: 14px;
@@ -376,6 +437,7 @@ padding-right: 25px;
 .header-mail-portfolio:hover {
     color: #2196F3;
 }
+
 .header-tel-portfolio {
     font-weight: 500;
     font-size: 14px;
@@ -436,10 +498,12 @@ padding-right: 25px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
+
 .header-nav {
     display: flex;
 
 }
+
 .header-list2 {
     display: flex;
     gap: 32px;
@@ -447,26 +511,28 @@ padding-right: 25px;
     margin-left: auto;
     justify-content: flex-end;
 }
+
 .div-container-footer {
     display: flex;
     flex-direction: column;
-    
-}
-.img-list {
-    display: flex;
-gap: 30px;
 
 }
+
+.img-list {
+    display: flex;
+    gap: 30px;
+
+}
+
 .footer-container {
     display: flex;
     flex-direction: column;
-    
+
 
 }
+
 .Technocrak-div {
     padding-left: 24px;
     padding-bottom: 20px;
 }
-.solution {
-    background: url(../img/hero-backround.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat;
-}
+
