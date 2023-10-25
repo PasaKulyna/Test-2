@@ -467,3 +467,6 @@ gap: 30px;
     padding-left: 24px;
     padding-bottom: 20px;
 }
+.solution {
+    background: url(../img/hero-backround.jpg), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+}
