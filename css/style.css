@@ -262,6 +262,9 @@ margin-top: 10px;
     display: flex;
     gap: 30px;
 }
+.team-item {
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .footer-list {
     list-style: none;
 }
@@ -295,8 +298,12 @@ padding-right: 25px;
 .Appendices-button:hover {
     background: #2196F3;
     color: #FFFFFF;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
 }
+.Technocrak-item:hover {
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 
+}
 .Technocrack-title {
     font-weight: 700;
     font-size: 18px;
