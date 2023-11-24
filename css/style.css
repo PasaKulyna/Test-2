@@ -70,8 +70,7 @@
 }
 
 .solution {
-    background-image:url(../img/hero-backround.jpg);
-    background-image: linear-gradient(rgba(47, 48, 58, 0.40));
+    background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero-backround.jpg);
 }
 .solution-title {
     font-weight: 900;
