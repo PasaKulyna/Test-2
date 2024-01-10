@@ -15,6 +15,13 @@
     margin-right: 93px;
 }
 
+.header-mail:hover .header-contact {
+    color: #2196F3;
+}
+.header-mail:hover .header-icon {
+    fill: #2196F3;
+}
+
 .header-span {
     font-family: 'Raleway';
     font-weight: 700;
@@ -32,8 +39,11 @@
     color: #212121;
 }
 
-.header-link:hover {
-    color: #2196F3;
+.header-icon {
+    width: 16px;
+    height: 12px;
+    fill: #757575;
+    margin-right: 10px;
 }
 
 .header-link {
@@ -48,12 +58,13 @@
 }
 
 .header-mail {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
     color: #757575;
-    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
 }
 
 .header-mail:hover {
@@ -67,13 +78,17 @@
     letter-spacing: 0.02em;
     color: #757575;
     text-decoration: none;
+    font-family: 'Roboto';
 }
+
+
 
 .solution {
     background-image: linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/hero-backround.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .solution-title {
     font-weight: 900;
     font-size: 44px;
@@ -128,6 +143,25 @@
     color: #757575;
 }
 
+.img-text {
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+padding-top: 27px;
+padding-bottom: 27px;
+}
+.img-box {
+    width: 370px;
+height: 70px;
+flex-shrink: 0;
+background: #2F303ACC;
+position: relative;
+bottom: 70px;
+}
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -137,9 +171,11 @@
     color: #212121;
     margin-bottom: 50px;
 }
+
 .team-item {
     background: #FFF;
 }
+
 .team-Igor {
     font-weight: 500;
     font-size: 16px;
@@ -188,6 +224,85 @@
     color: #212121;
 }
 
+.team-icon {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+.icon-link:hover .team-icon {
+    fill: #FFFFFF;
+}
+.icon-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+}
+.team-icon:hover {
+    fill: #FFFFFF;
+}
+
+.icon-link:hover {
+    border-radius: 50%;
+    background-color: #2196F3;
+}
+
+.icon-link {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-box {
+    margin-top: -28px;
+    padding-bottom: 30px;
+}
+
+
+.icon-company {
+    width: 106px;
+    height: 60px;
+    fill: #AFB1B8;
+}
+.icon-text {
+    color: #212121;
+text-align: center;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 1.08px;
+margin-left: auto;
+margin-right: auto;
+padding-top: 94px;
+padding-bottom: 50px;
+}
+.icon-company:hover {
+    fill: #2196F3;
+}
+
+.icon-item:hover {
+border: 1px solid #2196F3;
+}
+.icon-item:hover .icon-company {
+    fill: #2196F3; 
+}
+.icon-item {
+width: 170px;
+height: 92px;
+border-radius: 4px;
+border: 1px solid #AFB1B8;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.icon-list {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 94px;
+}
 .footer {
     background: #2F303A;
 }
@@ -234,7 +349,38 @@
 .footer-mail:hover {
     color: #2196F3;
 }
+.footer-title-icon {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+}
 
+.footer-icon {
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+fill: #FFFFFF;
+margin-left: 12px;
+margin-right: 12px;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.footer-list {
+    display: flex;
+    gap: 22px;
+}
+.footer-item {
+border-radius: 100%;
+width: 44px;
+height: 44px;
+flex-shrink: 0;
+}
+.footer-item:hover {
+    background-color: #2196F3;
+}
 .footer-tel {
     font-weight: 400;
     font-size: 14px;
@@ -307,13 +453,16 @@
     background-color: #F5F4FA;
     border-radius: 4px;
 }
+
 .Advantages-details {
     padding-top: 30px;
 }
+
 .team {
     background: #F5F4FA;
 
 }
+
 .team-list {
     list-style: none;
     display: flex;
@@ -365,11 +514,13 @@
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 
 }
+
 .Technocrak-item {
     border: 1px solid #EEE;
     width: 370px;
-flex-shrink: 0;
+    flex-shrink: 0;
 }
+
 .Technocrack-title {
     font-weight: 700;
     font-size: 18px;
@@ -398,6 +549,7 @@ flex-shrink: 0;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .header-logo-portfolio {
     font-weight: 700;
     font-size: 26px;
@@ -542,6 +694,7 @@ flex-shrink: 0;
     padding-left: 24px;
     padding-bottom: 20px;
 }
+
 .div-box {
     height: 1px;
     background: #ECECEC;
