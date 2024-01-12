@@ -346,6 +346,18 @@ align-items: center;
     margin-bottom: 9px;
 }
 
+.div-container-footer {
+    outline: red solid;
+}
+.footer-box {
+    outline: red solid;
+    margin-left: 70px;
+}
+
+.footer-container {
+    display: flex;
+
+}
 .footer-mail:hover {
     color: #2196F3;
 }
@@ -356,6 +368,8 @@ align-items: center;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
+    padding-bottom: 20px;
+    padding-top: 12px   ;
 }
 
 .footer-icon {
@@ -680,13 +694,6 @@ flex-shrink: 0;
 .img-list {
     display: flex;
     gap: 30px;
-
-}
-
-.footer-container {
-    display: flex;
-    flex-direction: column;
-
 
 }
 
