@@ -345,18 +345,12 @@ align-items: center;
     margin-top: 9px;
     margin-bottom: 9px;
 }
-
-.div-container-footer {
-    outline: red solid;
-}
 .footer-box {
-    outline: red solid;
     margin-left: 70px;
 }
 
 .footer-container {
     display: flex;
-
 }
 .footer-mail:hover {
     color: #2196F3;
