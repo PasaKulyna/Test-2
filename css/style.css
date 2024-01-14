@@ -21,6 +21,9 @@
 .header-mail:hover .header-icon {
     fill: #2196F3;
 }
+.header-mail:hover .header-icon-2 {
+    fill: #2196F3;
+}
 
 .header-span {
     font-family: 'Raleway';
@@ -38,12 +41,17 @@
     letter-spacing: 0.02em;
     color: #212121;
 }
-
-.header-icon {
+.header-icon-2 {
+   fill: #757575;
+    margin-right: 10px;
     width: 16px;
     height: 12px;
+}
+.header-icon {
     fill: #757575;
     margin-right: 10px;
+    width: 10px;
+height: 16px;
 }
 
 .header-link {
@@ -346,7 +354,7 @@ align-items: center;
     margin-bottom: 9px;
 }
 .footer-box {
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .footer-container {
@@ -362,8 +370,8 @@ align-items: center;
     font-weight: 700;
     letter-spacing: 0.42px;
     text-transform: uppercase;
-    padding-bottom: 20px;
-    padding-top: 12px   ;
+    margin-bottom: 20px;
+    margin-top: 12px   ;
 }
 
 .footer-icon {
