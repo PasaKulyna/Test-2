@@ -61,7 +61,7 @@
         <div class="container">
           <h1 class="solution-title">Ефективні рішення для вашого бізнесу</h1>
 
-          <button class="solution-button" type="button">
+          <button data-modal-open  class="solution-button" type="button">
             Замовити послугу
           </button>
         </div>
@@ -376,7 +376,68 @@
             </li>
           </ul>
         </div>
+        
+        <div class="footer-mailing">
+          <h2 class="mailing-title">Підпишіться на розсилку</h2>
+          <div class="mailing-box">
+          <input class="mailing-input" type="text" placeholder="E-mail">
+          <button type="button" class="mailing-button">
+            Підписатися
+            <svg class="mailing-icon" viewBox="0 0 24 24" fill="none">
+              <path d="M24 0L0 13.5L7.66994 16.3407L19.5 5.25002L10.5017 17.3896L10.509 17.3923L10.5 17.3896V24.0001L14.8013 18.982L20.2501 21.0001L24 0Z" />
+            </svg>
+          </button>
+          </div>
+        </div>
       </div>
     </footer>
+    <div data-modal class="backdrop is-hidden">
+      <div class="modal">
+        <button data-modal-close class="modal-button-svg">
+          <svg class="modal-close" viewBox="0 0 18 18" fill="none">
+            <path
+              d="M15 5.10786L13.8921 4L9.5 8.39214L5.10786 4L4 5.10786L8.39214 9.5L4 13.8921L5.10786 15L9.5 10.6079L13.8921 15L15 13.8921L10.6079 9.5L15 5.10786Z"
+            />
+          </svg>
+        </button>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <ul class="modal-list">
+          <li class="modal-item">
+            <label class="modal-label" for="input-name">Ім'я</label>
+            <input id="input-name" type="text" class="modal-input" />
+            <svg class="modal-icon-name">
+              <use href="./img/symbol-defs.svg#icon-name"></use>
+            </svg>
+          </li>
+          <li class="modal-item">
+            <label class="modal-label" for="input-phone">Телефон</label>
+            <input id="input-phone" type="text" class="modal-input" />
+            <svg class="modal-icon-phone">
+              <use href="./img/symbol-defs.svg#icon-phone"></use>
+            </svg>
+          </li>
+          <li class="modal-item">
+            <label class="modal-label" for="input-mail">Пошта</label>
+            <input id="input-mail" type="text" class="modal-input" />
+            <svg class="modal-icon-email">
+              <use href="./img/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </li>
+          <li class="modal-item">
+            <label class="modal-label" for="input-comment">Коментар</label>
+            <input id="input-comment" type="text" class="modal-comment" />
+          </li>
+        </ul>
+        <div class="modal-box">
+          <input type="checkbox" class="modal-checkbox" />
+          <h3 class="modal-сonditions">
+            Погоджуюся з розсилкою та приймаю
+            <a href="#" class="сonditions-link">Умови договору</a>
+          </h3>
+        </div>
+        <button class="modal-button">Відправити</button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
