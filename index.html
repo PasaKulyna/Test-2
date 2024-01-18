@@ -404,21 +404,21 @@
         <ul class="modal-list">
           <li class="modal-item">
             <label class="modal-label" for="input-name">Ім'я</label>
-            <input id="input-name" type="text" class="modal-input" />
+            <input required id="input-name" type="text" class="modal-input" />
             <svg class="modal-icon-name">
               <use href="./img/symbol-defs.svg#icon-name"></use>
             </svg>
           </li>
           <li class="modal-item">
             <label class="modal-label" for="input-phone">Телефон</label>
-            <input id="input-phone" type="text" class="modal-input" />
+            <input required id="input-phone" type="text" class="modal-input" />
             <svg class="modal-icon-phone">
               <use href="./img/symbol-defs.svg#icon-phone"></use>
             </svg>
           </li>
           <li class="modal-item">
             <label class="modal-label" for="input-mail">Пошта</label>
-            <input id="input-mail" type="text" class="modal-input" />
+            <input  id="input-mail" type="text" class="modal-input" />
             <svg class="modal-icon-email">
               <use href="./img/symbol-defs.svg#icon-email"></use>
             </svg>
@@ -429,13 +429,13 @@
           </li>
         </ul>
         <div class="modal-box">
-          <input type="checkbox" class="modal-checkbox" />
+          <input required type="checkbox" class="modal-checkbox" />
           <h3 class="modal-сonditions">
             Погоджуюся з розсилкою та приймаю
             <a href="#" class="сonditions-link">Умови договору</a>
           </h3>
         </div>
-        <button class="modal-button">Відправити</button>
+        <button data-modal-close class="modal-button">Відправити</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
