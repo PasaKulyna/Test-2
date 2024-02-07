@@ -331,7 +331,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-box {
@@ -659,10 +659,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
     height: 294px;
     transform: translateX(-100%);
     background: rgba(33, 150, 243, 0.90);
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms ease-in-out;
 }
 .box:hover .overlay {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 .overlay-text {
     color: #FFF;
@@ -787,14 +787,26 @@ align-items: center;
     display: flex;
 justify-content: center;  
 align-items: center;    
+transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
+.is-hidden .modal {
+    transform: scale(0);
+}
+.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .modal {
     width: 528px;
 height: 581px;
 flex-shrink: 0;
 border-radius: 4px;
 background: #FFF;
+transform: scale(1) rotate(360deg);
 box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title {
     color: #212121;
@@ -986,7 +998,3 @@ right: 439px;
 top: 2px;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.is-hidden {
-    opacity: 0;
-    pointer-events: none;
-  }
