@@ -21,6 +21,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body class="main">
@@ -71,14 +72,14 @@
       <section class="Advantages">
         <div class="container">
           <ul class="Advantages-list">
-            <li class="Advantages-item">
+            <li data-aos="zoom-out" data-aos-duration="1500"  class="Advantages-item">
               <h2 class="Advantages-details">УВАГА ДО ДЕТАЛЕЙ</h2>
               <p class="Advantages-consideration">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
               </p>
             </li>
-            <li class="Advantages-item">
+            <li data-aos="zoom-out" data-aos-duration="1500"  class="Advantages-item">
               <h2 class="Advantages-details">ПУНКТУАЛЬНІСТЬ</h2>
               <p class="Advantages-consideration">
                 Завдання організації, особливо рамки і місце навчання
@@ -86,13 +87,14 @@
               </p>
             </li>
 
-            <li class="Advantages-item">
+            <li data-aos="zoom-out" data-aos-duration="1500"  class="Advantages-item">
               <h2 class="Advantages-details">ПЛАНУВАННЯ</h2>
               <p class="Advantages-consideration">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
-            <li class="Advantages-item">
+            <li data-aos="zoom-out"
+            data-aos-duration="1500" class="Advantages-item">
               <h2 class="Advantages-details">СУЧАСНІ ТЕХНОЛОГІЇ</h2>
               <p class="Advantages-consideration">
                 Значимість цих проблем настільки очевидна, що реалізація
@@ -105,15 +107,15 @@
       </section>
       <section class="img">
         <div class="container">
-          <h3 class="img-title">Чим ми займаємося</h3>
+          <h3 data-aos-duration="3000" data-aos="flip-left" class="img-title">Чим ми займаємося</h3>
           <ul class="img-list">
-            <li>
+            <li data-aos-duration="1000" data-aos="fade-right">
               <img class="img-code" src="./img/img.jpg" alt="пишуть код" />
               <div class="img-box">
                 <p class="img-text">Десктопні додатки</p>
               </div>
             </li>
-            <li>
+            <li data-aos-duration="1000"  data-aos="fade-down">
               <img
                 class="img-code"
                 src="./img/img(1).jpg"
@@ -123,7 +125,7 @@
                 <p class="img-text">Мобільні додатки</p>
               </div>
             </li>
-            <li>
+            <li data-aos-duration="1000" data-aos="fade-left">
               <img
                 class="img-code"
                 src="./img/box3.jpg"
@@ -295,42 +297,42 @@
         <div class="container">
           <p class="icon-text">Постійні клієнти</p>
           <ul class="icon-list">
-            <li class="icon-list-item">
+            <li data-aos="zoom-in" class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
+            <li data-aos="zoom-in" class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo-2"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
+            <li  data-aos="zoom-in" class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo-3"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
+            <li  data-aos="zoom-in" class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo-4"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
+            <li  data-aos="zoom-in"  class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo-5"></use>
                 </svg>
               </a>
             </li>
-            <li class="icon-list-item">
+            <li data-aos="zoom-in" class="icon-list-item">
               <a href="#" class="icon-item">
                 <svg class="icon-company">
                   <use href="./img/symbol-defs.svg#icon-logo-6"></use>
@@ -454,5 +456,9 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
